@@ -18,10 +18,10 @@ app.use(express.json())
 
 // connection to mysql
 const connection = mysql.createConnection({
-    host:"localhost",
-    user:"root",
-    password:"",
-    database:"system_database"
+    host:"b2szsrpq6whv5tfp3kth-mysql.services.clever-cloud.com",
+    user:"u2pp9pol3lxh8x21",
+    password:"m6G6KEXke2P0LSbj5MfS",
+    database:"b2szsrpq6whv5tfp3kth"
 })
 
 //initilization of  connection
